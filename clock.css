@@ -1,0 +1,62 @@
+body {
+    background-color: #2ea5c49e;
+    font-size: 120%;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+ font-family: "Courier new",monospace;margin: 0px;}
+
+.timeBox {
+    background-color: #182432ea;
+    color: white;
+    height: 100%;
+    max-height: 350px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 30px;
+    padding: 1.5em;
+    margin: 1em;
+    display: flex;display: inline-grid;
+}
+h2.headText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+h1.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    margin: -1rem;
+}
+
+h2.date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+/*media*/
+@media (max-width:500px){
+    .timeBox {
+        max-width: 80%;
+        max-height: 40vh;
+    }
+    h2.headText {
+        font-size: 6vw;
+    }
+    
+    h1.time {
+        font-size: 15vw;
+    }
+    h2.date {
+        font-size: 8vw;
+    }
+}
+
+    
